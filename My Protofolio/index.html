@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="Sherif Ashraf Mahmoud - Web Developer specializing in PHP, Laravel and backend development.">
+
+  <title>Sherif Ashraf | Web Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <a href="#home" class="logo">Sherif<span>.</span></a>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#education"class="nav-link" >Education</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-cta">Let's Talk ↗</a>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <div class="availability">
+          <span class="status-dot"></span>
+          Available for opportunities
+        </div>
+
+        <p class="eyebrow">HELLO, I'M</p>
+
+        <h1>
+          Sherif Ashraf<br>
+          <span class="gradient-text">Mahmoud.</span>
+        </h1>
+
+        <h2>I'm a <span id="typing-text">Web Developer</span><span class="cursor">|</span></h2>
+
+        <p class="hero-description">
+          I build modern web applications and reliable backend systems
+          with a focus on clean code, performance, and great user experiences.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            Explore My Work <span>↗</span>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            Contact Me
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/Sherif-Ashraf77" target="_blank" rel="noopener noreferrer"
+            aria-label="GitHub">GH</a>
+          <a href="mailto:sherifashraf112005@gmail.com" aria-label="Email">✉</a>
+          <a href="https://wa.me/201064785663" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">WA</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="profile-card">
+          <div class="profile-top">
+            <span class="window-dot red"></span>
+            <span class="window-dot yellow"></span>
+            <span class="window-dot green"></span>
+            <span class="profile-label">developer.profile</span>
+          </div>
+
+          <div class="profile-image-wrap">
+            <!-- Replace images/profile.jpg with your own photo -->
+            <img src="images/profile.jpg" alt="Sherif Ashraf Mahmoud" class="profile-image"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+            <div class="profile-placeholder">
+              <span>SA</span>
+              <small>Add your photo</small>
+            </div>
+          </div>
+
+          <div class="profile-info">
+            <h3>Sherif Ashraf Mahmoud</h3>
+            <p>Web Developer · Backend Focused</p>
+          </div>
+
+          <div class="code-decoration">
+            <span class="code-purple">const</span> developer =
+            <span class="code-green">"Sherif"</span>;
+            <br>
+            <span class="code-purple">const</span> passion =
+            <span class="code-green">"Building"</span>;
+          </div>
+        </div>
+
+        <div class="floating-badge badge-php">
+          <span class="badge-icon">PHP</span>
+          <span>Backend Development</span>
+        </div>
+
+        <div class="floating-badge badge-laravel">
+          <span class="badge-icon">✦</span>
+          <span>Laravel Developer</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about-section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span class="gradient-text">Me</span></h2>
+        <p>A little introduction about who I am and what I do.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card about-main reveal">
+          <div class="card-icon">⌘</div>
+          <h3>Building ideas into reality.</h3>
+
+          <p>
+            I am a Backend Developer skilled in PHP, Laravel, and more.
+            I enjoy creating practical web applications, designing
+            reliable backend logic, and solving problems through code.
+          </p>
+
+          <p>
+            I continuously work to improve my skills, learn new
+            technologies, and contribute to meaningful projects and teams.
+          </p>
+        </div>
+
+        <div class="about-card about-detail reveal">
+          <span class="detail-label">NAME</span>
+          <h3>Sherif Ashraf Mahmoud</h3>
+
+          <span class="detail-label">SPECIALIZATION</span>
+          <h3>Web & Backend Development</h3>
+
+          <span class="detail-label">LANGUADES</span>
+          <h3>PHP · Laravel · HTML . CSS</h3>
+
+          <span class="detail-label">LOOKING FOR</span>
+          <h3>Freelance & Job Opportunities</h3>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Education Section -->
+    <section class="education section" id="education">
+      <div class="container">
+
+        <p class="section-subtitle">MY JOURNEY</p>
+
+        <h2 class="section-title">
+          My <span>Education</span>
+        </h2>
+
+        <div class="education-wrapper">
+
+          <div class="education-line"></div>
+
+          <div class="education-card">
+
+            <div class="education-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M2 9L12 3L22 9L12 15L2 9Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" />
+                <path d="M6 12V17C9.5 20 14.5 20 18 17V12" stroke="currentColor" stroke-width="1.7"
+                  stroke-linecap="round" />
+                <path d="M22 9V15" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+              </svg>
+            </div>
+
+            <div class="education-content">
+
+              <span class="education-label">
+                UNIVERSITY EDUCATION
+              </span>
+
+              <h3>Zagazig University</h3>
+
+              <h4>Faculty of Computers and Information</h4>
+
+              <div class="education-specialty">
+                <span class="specialty-dot"></span>
+                Computer Science
+              </div>
+
+              <p class="education-description">
+                Building a strong foundation in computer science,
+                programming, problem-solving, and software development.
+                Continuously learning and improving my technical skills.
+              </p>
+
+              <div class="education-tags">
+                <span>Programming</span>
+                <span>Problem Solving</span>
+                <span>Software Development</span>
+              </div>
+
+            </div>
+
+            <div class="education-number">01</div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">WHAT I WORK WITH</p>
+        <h2>My <span class="gradient-text">Skills</span></h2>
+        <p> I use to build and develop web applications.</p>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <div class="skill-symbol html-symbol">H</div>
+          <h3>HTML</h3>
+          <p>Semantic Web Structure</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-symbol css-symbol">C</div>
+          <h3>CSS</h3>
+          <p>Responsive Web Design</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-symbol js-symbol">JS</div>
+          <h3>JavaScript</h3>
+          <p>Interactive Experiences</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-symbol php-symbol">PHP</div>
+          <h3>PHP</h3>
+          <p>Backend Development</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-symbol laravel-symbol">L</div>
+          <h3>Laravel</h3>
+          <p>Web Apps & REST APIs</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-symbol git-symbol">G</div>
+          <h3>Git & GitHub</h3>
+          <p>Version Control</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects-section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">SOME OF MY WORK</p>
+        <h2>Featured <span class="gradient-text">Projects</span></h2>
+        <p>Projects that demonstrate my development skills and ideas.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card reveal">
+          <div class="project-preview menu-preview">
+            <div class="preview-browser">
+              <div class="preview-dots">● ● ●</div>
+              <span>restaurant-menu</span>
+            </div>
+
+            <div class="menu-mockup">
+              <span class="mockup-kicker">WELCOME TO</span>
+              <h3>طاسه الأكابر</h3>
+              <p>Discover our delicious menu</p>
+
+              <div class="mockup-food-row">
+                <div class="mockup-food">🍲</div>
+                <div class="mockup-food">🥘</div>
+                <div class="mockup-food">🍖</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span class="project-type">FRONTEND DEVELOPMENT</span>
+              <span class="project-status live">Live Website</span>
+            </div>
+
+            <h3>Restaurant Menu Website</h3>
+
+            <p>
+              A responsive restaurant menu website designed to help
+              customers browse menu items easily from their phones.
+            </p>
+
+            <div class="tech-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+
+            <a href="https://restaurant-menu-xi-neon.vercel.app/" class="project-link" target="_blank"
+              rel="noopener noreferrer">
+              View Live Project <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card reveal">
+          <div class="project-preview pos-preview">
+            <div class="pos-window">
+              <div class="pos-sidebar">
+                <div class="pos-logo">R</div>
+                <span>▦</span>
+                <span>☷</span>
+                <span>▤</span>
+                <span>⚙</span>
+              </div>
+
+              <div class="pos-dashboard">
+                <div class="pos-topline">
+                  <span>Restaurant POS</span>
+                  <span class="pos-online">● Online</span>
+                </div>
+
+                <div class="pos-stats">
+                  <div>
+                    <small>Today's Sales</small>
+                    <strong>EGP</strong>
+                  </div>
+                  <div>
+                    <small>Orders</small>
+                    <strong>Orders</strong>
+                  </div>
+                </div>
+
+                <div class="pos-chart">
+                  <span></span><span></span><span></span>
+                  <span></span><span></span><span></span>
+                  <span></span><span></span><span></span>
+                </div>
+
+                <div class="pos-order-lines">
+                  <i></i><i></i><i></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span class="project-type">FULL STACK DEVELOPMENT</span>
+              <span class="project-status progress">In Development</span>
+            </div>
+
+            <h3>Restaurant POS System</h3>
+
+            <p>
+              A restaurant point-of-sale application for managing
+              products, orders, tables, cashier operations, and
+              restaurant workflows.
+            </p>
+
+            <div class="tech-tags">
+              <span>React</span>
+              <span>Laravel</span>
+              <span>MySQL</span>
+            </div>
+
+            <a href="mailto:sherifashraf112005@gmail.com?subject=Restaurant%20POS%20Project" class="project-link">
+              Ask About Project <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">LET'S WORK TOGETHER</p>
+        <h2>Get In <span class="gradient-text">Touch</span></h2>
+        <p>Have a project or opportunity? I'd love to hear from you.</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <div class="contact-info reveal">
+          <h3>Let's talk about your next project.</h3>
+
+          <p>
+            Whether you need a website, a backend solution, or want
+            to discuss a job opportunity, feel free to contact me.
+          </p>
+
+          <a class="contact-item" href="mailto:sherifashraf112005@gmail.com">
+            <span class="contact-icon">✉</span>
+            <span>
+              <small>Email me at</small>
+              <strong>sherifashraf112005@gmail.com</strong>
+            </span>
+          </a>
+
+          <a class="contact-item" href="https://wa.me/201064785663" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon">WA</span>
+            <span>
+              <small>Message me on</small>
+              <strong>WhatsApp</strong>
+            </span>
+          </a>
+
+          <a class="contact-item" href="https://github.com/Sherif-Ashraf77" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon">GH</span>
+            <span>
+              <small>Explore my code</small>
+              <strong>GitHub Profile</strong>
+            </span>
+          </a>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Project inquiry" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."
+              required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary submit-btn" id="submit-btn">
+            <span>Send Message</span> <span>↗</span>
+          </button>
+
+          <div id="form-status" class="form-status" style="display: none;"></div>
+
+          <p class="form-note">
+            Your message will be sent directly to my inbox.
+          </p>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="#home" class="logo">Sherif<span>.</span></a>
+    <p>Designed & built by Sherif Ashraf Mahmoud.</p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </footer>
+
+</body>
+
+</html>
